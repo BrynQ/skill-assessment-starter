@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  overflow-y: auto;
+  font-size: 16px;
+  min-height: 100%;
+}
+
+body {
+  color: #424242;
+  background: #fdfdfd;
+  @apply font-sans antialiased;
+  font-size: 87.5%;
+}
+
+p {
+  @apply mb-3;
+}
+
+a {
+  @apply text-blue-500 underline;
+}
+
+code {
+  @apply font-mono bg-gray-100 p-1 rounded whitespace-nowrap;
+}
