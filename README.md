@@ -32,3 +32,7 @@ We will evaluate your submission based on the following criteria:
 ## Recommended IDE Setup
 
 We recommend using Visual Studio Code with the recommended extensions which will be prompted when you open the project.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
