@@ -1,5 +1,5 @@
 import express from "express"
-import { connectDatabase } from "./config/sqlite"
+import { connectDatabase } from "./config/mysql"
 import { usersController } from "./controllers/users.controller"
 
 const app = express()
