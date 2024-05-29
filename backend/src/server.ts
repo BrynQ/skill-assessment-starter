@@ -1,5 +1,6 @@
 import express from "express"
 import { connectDatabase } from "./config/mysql"
+import { mashupController } from "./controllers/mashup.controller"
 import { usersController } from "./controllers/users.controller"
 
 const app = express()
@@ -10,6 +11,7 @@ app.use(express.json())
 
 // Controllers
 app.use(usersController)
+app.use(mashupController)
 
 await connectDatabase()
 
